@@ -6,6 +6,7 @@ https://coolers.co
 #2F3061 - blue dark
 #FFE66D - yellow
 #A1C6D7 - blue light
+#FAC001 - media query background
 */
 
 
@@ -111,12 +112,6 @@ header {
 
 /* Education
 ------------------------------*/
-.education {
-    background-image: url(../images/joanna-kosinska-unsplash.jpg);
-    background-size: cover;
-    background-position: top right;
-    padding-bottom: 100px;
-}
 .education p {
     width: 60%;
 }
@@ -160,6 +155,12 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .education {
+        background-image: url(../images/joanna-kosinska-unsplash.jpg);
+        background-size: cover;
+        background-position: top right;
+        padding-bottom: 100px;
+    }
 }
 
 @media screen and (max-width:749px){
@@ -173,5 +174,8 @@ footer {
     }
     .contact-list li {
         padding: 5px;
+    }
+    .education {
+        background: #FAC001;
     }
 }
